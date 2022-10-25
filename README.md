@@ -9,10 +9,13 @@ Solution:
 - find another lable column
 - draw and export image
 
-Install
+First, install the package using npm:
+
     npm install
 
 Run test
+
     node main.js https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression
 This program can run some others input. Ex: https://www.iban.com/exchange-rates
+
     node main.js https://www.iban.com/exchange-rates
