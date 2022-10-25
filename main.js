@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const ChartJSImage = require('chart.js-image');
 const url = process.argv[2];
 // console.log(url);
+//"https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression";
 
 fetchData(url).then((res) => {
     // console.log(res);
